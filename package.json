@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "name": "practise-folder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "yasha",
+  "license": "ISC",
+  "description": ""
+}
