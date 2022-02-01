@@ -12,6 +12,8 @@ app.use(cors({
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
+    console.log(req);
+    console.log(res);
 })
 
 app.get('/home', (req, res) => {
