@@ -6,7 +6,7 @@ const port = 3000
 
 
 app.use(cors({
-    origin: 'https://nostalgic-wright-d50289.netlify.app/'
+    origin: 'https://nostalgic-wright-d50289.netlify.app'
 }))
 
 
