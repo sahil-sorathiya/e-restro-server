@@ -1,19 +1,19 @@
+require('dotenv').config()
 const data = require('./data')
-var cors = require('cors')
+const cors = require('cors')
 const express = require('express')
 const app = express()
 const port = 3000
 
 
 app.use(cors({
-    origin: process.env.CORS_ORIGIN
+    origin: process.env.CORS_ORIGIN,
+    optionsSuccessStatus: 200
 }))
 
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
-    console.log(req);
-    console.log(res);
 })
 
 app.get('/home', (req, res) => {
